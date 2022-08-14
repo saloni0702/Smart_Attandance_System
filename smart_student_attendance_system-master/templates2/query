@@ -1,0 +1,20 @@
+query3 = "SELECT count(s_id),sub_code from test_attendance where s_id=%s group by sub_code"
+    param3 = (stuid,)
+    cursor3.execute(query3, param3)
+
+
+
+
+
+
+
+
+
+
+
+
+    ELECT count(s_id),sub_code from test_attendance where s_id=%s group by sub_code
+
+
+
+    {{((attendancedetails|sum|float)/32)*100}}

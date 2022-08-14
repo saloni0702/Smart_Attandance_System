@@ -1,0 +1,61 @@
+{% extends "layout.html" %}
+{% block body %}
+<style type="text/css">
+	select {
+    border: none;
+    outline: none;
+    padding:25px;
+}
+table.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+.files,td{
+	padding:25px;
+}
+</style>
+<body>
+	
+	<div class="limiter">
+		<div class="container-login100">
+			<div class="wrap-login100 p-l-55 p-r-55 p-t-65 p-b-50">
+				<form class="login100-form validate-form" action="/addstudentclass" method="post" onSubmit = "return checkPassword(this)" enctype="multipart/form-data">
+					<span class="login100-form-title p-b-33">
+						ASSIGN STUDENT CLASSES
+					</span>
+
+					<div class="wrap-input100 validate-input">
+						
+						<div class="files">Select studentclass's csv file<input type="file" name="scsv" id="files" accept=".csv"/>
+						</div>
+						<span class="focus-input100-1"></span>
+						<span class="focus-input100-2"></span>
+					</div>
+
+								
+					<div class="container-login100-form-btn m-t-20">
+						<button class="login100-form-btn" type="submit">
+							SUBMIT
+						</button>
+					</div>
+
+					
+			
+				</form>
+				<form class="login100-form validate-form" action="/admin">
+					
+					<div class="container-login100-form-btn m-t-20">
+						<button class="login100-form-btn" type="submit" >
+							Back to admin Page
+						</button>
+					</div>
+				</form>
+
+			</div>
+		</div>
+	</div>
+	
+
+	
+
+{% endblock %}

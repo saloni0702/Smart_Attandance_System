@@ -1,0 +1,87 @@
+{% extends "layout.html" %}
+{% block body %}
+
+<body>
+	
+	<div class="limiter">
+		<div class="container-login100">
+			<div class="wrap-login100 p-l-55 p-r-55 p-t-65 p-b-50">
+					<span class="login100-form-title p-b-33">
+							YOUR ATTENDANCE DETAILS
+					</span>
+					<div class="container-login100-form-btn m-t-20">
+						<table class="center">
+							<tr>
+								<td>Student Id is:</td>
+								<div class="checkbox-group required">
+									<td><input  type="text" placeholder="{{studentid}}"></td>
+								</div>
+							</tr>
+
+							<tr>
+								<td>Student Name is:</td>
+								<div class="checkbox-group required">
+									{% for sname in studentname %}
+			
+									<td><input  type="text" placeholder="{{sname}}"></td>
+											{% endfor %}
+					
+								</div>
+							</tr>
+							<!-- <tr>
+								<td>Attendance in Subject 1 :</td>
+								<div class="checkbox-group required">
+									<td>/16</td>
+								</div>
+							</tr>
+							<tr>
+								<td>Attendance in Subject 2 :</td>
+								<div class="checkbox-group required">
+									<td>/16</td>
+								</div>
+							</tr>
+							<tr>
+								<td>Attendance in Subject 3 :</td>
+								<div class="checkbox-group required">
+									<td>/16</td>
+								</div>
+							</tr> -->
+							{% set a=10 %}
+							{% for i in range(0,l) %}
+							<tr>
+								<td>Attendance in {{subjectdetails[i]}}:</td>
+								<div class="checkbox-group required">
+									<td>{{attendancedetails[i]}}/{{subjectwise_total[i]}}	</td>
+								</div>
+							</tr>
+								
+										
+							{% endfor %}
+							<tr>
+								
+								<td>Overall Attendance :</td>
+								<td>{{attendancedetails|sum}}/{{total[0]}}</td>
+								<div class="checkbox-group required">
+									
+								</div>
+							</tr>
+							<tr>
+								<td>Overall Attendance(%):</td>
+								<div class="checkbox-group required">
+									<td> {{  ((attendancedetails|sum|float)/(total[0])*100) }}%</td>
+								</div>
+							</tr>
+						</table>
+						<form class="login100-form validate-form" action="/">
+					<div class="container-login100-form-btn m-t-20">
+						<button class="login100-form-btn" type="submit">
+							LOGOUT
+						</button>
+					</div>
+				</form>	
+					</div>	
+			</div>
+		</div>
+	</div>
+
+{% endblock %}

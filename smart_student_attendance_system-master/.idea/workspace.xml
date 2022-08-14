@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="46836396-ec33-4b32-9da8-d77b89fbedce" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/Untitled-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Database/Faculty/Virat.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Database/Faculty/iamge1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Database/Faculty/image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Database/Faculty/milky-way-3840x2160-stars-4k-20311_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Database/Faculty/sign1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Database/Faculty/virat-kohli-rcb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Database/StudentData/StudentClassData.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Database/StudentData/main.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Database/StudentData/my_csv.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Untitled.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/attendance.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/attendance.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/IT101.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/IT102.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/IT103.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/nextpage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/recordattendance.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/saveattendance.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/showattendance.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/subjectlist.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/uploadattendance.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates2/addstudentphoto.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates2/addstudents.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates2/admin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates2/assignfacultysubject.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates2/faculty.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates2/facultyForm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates2/layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates2/nextpage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates2/query" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates2/showattendance.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates2/student.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates2/subjectform.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates2/subjectlist.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates2/takeattendance.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/StudentData/StudentData.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Database/StudentData/StudentData.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/User_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_csv.csv" beforeDir="false" afterPath="$PROJECT_DIR$/my_csv.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/addstudentphoto.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/addstudentphoto.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/addstudents.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/addstudents.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/admin.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/assignfacultysubject.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/assignfacultysubject.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/faculty.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/faculty.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/facultyForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/facultyForm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/nextattendance.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates2/nextattendance.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/signin.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates2/signin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/student.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/student.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/takeattendance.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/takeattendance.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package.json" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JupyterTrust" id="2dc6b253-041f-442d-8964-123485e918a2" />
+  <component name="ProjectId" id="1fcaj6ZGkkxcfcFsbd5mrSFBU21" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ketul\PycharmProjects\SDP-project" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ketul\PycharmProjects\SDP-project" />
+      <recent name="C:\Users\ketul\PycharmProjects\SDP-project\template" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.main">
+    <configuration name="SDP-project" type="PythonConfigurationType" factoryName="Python">
+      <module name="SDP-project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SDP-project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="python" type="PythonConfigurationType" factoryName="Python">
+      <module name="SDP-project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\ketul\PycharmProjects\SDP-project\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SDP-project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.SDP-project" />
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python.python" />
+      <item itemvalue="Python.test_main" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.test_main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="46836396-ec33-4b32-9da8-d77b89fbedce" name="Default Changelist" comment="" />
+      <created>1596519967057</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596519967057</updated>
+      <workItem from="1596519969805" duration="4780000" />
+      <workItem from="1596600972355" duration="740000" />
+      <workItem from="1597306964104" duration="1649000" />
+      <workItem from="1597475484137" duration="3276000" />
+      <workItem from="1597677131474" duration="637000" />
+      <workItem from="1597811990181" duration="1663000" />
+      <workItem from="1597813675095" duration="795000" />
+      <workItem from="1597908369369" duration="2960000" />
+      <workItem from="1597981085816" duration="6441000" />
+      <workItem from="1598617141343" duration="2919000" />
+      <workItem from="1598858780455" duration="1449000" />
+      <workItem from="1598946287360" duration="3948000" />
+      <workItem from="1599039012202" duration="6399000" />
+      <workItem from="1599105773635" duration="8920000" />
+      <workItem from="1599145213276" duration="427000" />
+      <workItem from="1599194522451" duration="1129000" />
+      <workItem from="1599278765255" duration="1580000" />
+      <workItem from="1599280967556" duration="630000" />
+      <workItem from="1599716003503" duration="1876000" />
+      <workItem from="1599723341471" duration="644000" />
+      <workItem from="1599798627190" duration="1905000" />
+      <workItem from="1599803137457" duration="1723000" />
+      <workItem from="1599809374487" duration="1945000" />
+      <workItem from="1599811709090" duration="992000" />
+      <workItem from="1599814702049" duration="1841000" />
+      <workItem from="1599883012710" duration="1206000" />
+      <workItem from="1599884831247" duration="811000" />
+      <workItem from="1600164079695" duration="638000" />
+      <workItem from="1600314649913" duration="767000" />
+      <workItem from="1600322232498" duration="598000" />
+      <workItem from="1600328344915" duration="736000" />
+      <workItem from="1600331022452" duration="757000" />
+      <workItem from="1600404608063" duration="1521000" />
+      <workItem from="1600406916339" duration="1799000" />
+      <workItem from="1600408755103" duration="1802000" />
+      <workItem from="1600410603518" duration="450000" />
+      <workItem from="1600415159395" duration="1727000" />
+      <workItem from="1600417440586" duration="990000" />
+      <workItem from="1600419265542" duration="2258000" />
+      <workItem from="1600421559334" duration="606000" />
+      <workItem from="1600424148010" duration="1799000" />
+      <workItem from="1600426075870" duration="599000" />
+      <workItem from="1600427984833" duration="165000" />
+      <workItem from="1600491897025" duration="1784000" />
+      <workItem from="1600493712804" duration="1779000" />
+      <workItem from="1600495521407" duration="1209000" />
+      <workItem from="1600691276921" duration="1785000" />
+      <workItem from="1600693619820" duration="617000" />
+      <workItem from="1600698374600" duration="757000" />
+      <workItem from="1600703116189" duration="610000" />
+      <workItem from="1600705500103" duration="636000" />
+      <workItem from="1600707591973" duration="1190000" />
+      <workItem from="1600766423402" duration="1789000" />
+      <workItem from="1600768243222" duration="1676000" />
+      <workItem from="1600770574388" duration="1798000" />
+      <workItem from="1600772422926" duration="895000" />
+      <workItem from="1600782706443" duration="656000" />
+      <workItem from="1600784621362" duration="111000" />
+      <workItem from="1600786471233" duration="49000" />
+      <workItem from="1600788420233" duration="849000" />
+      <workItem from="1600850353304" duration="13000" />
+      <workItem from="1600850450182" duration="638000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="137" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596520454899">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1596520454899" />
+    <state x="412" y="155" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1596520222583">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="412" y="155" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1596520222583" />
+    <state x="463" y="123" key="FileChooserDialogImpl" timestamp="1600852184282">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="123" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1600852184282" />
+    <state width="1323" height="176" key="GridCell.Tab.0.bottom" timestamp="1600773320806">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="176" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1600773320806" />
+    <state width="1323" height="176" key="GridCell.Tab.0.center" timestamp="1600773320806">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="176" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1600773320806" />
+    <state width="1323" height="176" key="GridCell.Tab.0.left" timestamp="1600773320806">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="176" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1600773320806" />
+    <state width="1323" height="176" key="GridCell.Tab.0.right" timestamp="1600773320806">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="176" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1600773320806" />
+    <state x="186" y="10" key="SettingsEditor" timestamp="1601452349224">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="186" y="10" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1601452349224" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1603187493540">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1603187493540" />
+  </component>
+</project>

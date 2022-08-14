@@ -1,0 +1,67 @@
+{% extends "layout.html" %}
+{% block body %}
+<body>
+	{% with messages = get_flashed_messages() %}
+					{% if messages %}
+						{% for message in messages %}
+							<p>{{ message }}</p>
+						{% endfor %}
+					{% endif %}
+				{% endwith %}
+	<div class="limiter">
+		<div class="container-login100">
+			<div class="wrap-login100 p-l-55 p-r-55 p-t-65 p-b-50">
+				<span class="login100-form-title p-b-33">
+							ADMIN PANEL
+				</span>	
+				
+				<form class="login100-form validate-form" action="/facultyform">
+					<div class="container-login100-form-btn m-t-20">
+						<button class="login100-form-btn" type="submit">
+							ADD NEW FACULTY
+						</button>
+					</div>
+				</form>
+				<form class="login100-form validate-form" action="/subjectform">
+					<div class="container-login100-form-btn m-t-20">
+						<button class="login100-form-btn" type="submit">
+							ADD NEW SUBJECT
+						</button>
+					</div>
+				</form>
+				<form class="login100-form validate-form" action="/addfacid">
+					<div class="container-login100-form-btn m-t-20">
+						<button class="login100-form-btn" type="submit">
+							CREATE CLASS
+						</button>
+					</div>
+				</form>	
+
+				<form class="login100-form validate-form" action="/assignstudentclass">
+					<div class="container-login100-form-btn m-t-20">
+						<button class="login100-form-btn" type="submit">
+							ADD STUDENTS TO CLASS
+						</button>
+					</div>	
+				</form>
+
+				<form class="login100-form validate-form" action="/">
+					<div class="container-login100-form-btn m-t-20">
+						<button class="login100-form-btn" type="submit">
+							LOGOUT
+						</button>
+					</div>
+				</form>
+				
+
+					
+			
+				
+			</div>
+		</div>
+	</div>
+	
+
+	
+
+{% endblock %}

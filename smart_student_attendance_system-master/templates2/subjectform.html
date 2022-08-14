@@ -1,0 +1,142 @@
+{% extends "layout.html" %}
+{% block body %}
+<style type="text/css">
+	select {
+    border: none;
+    outline: none;
+    padding:25px;
+}
+table.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+.files,td{
+	padding:25px;
+}
+</style>
+
+
+
+
+<script type="text/javascript" src="//code.jquery.com/jquery-2.1.3.min.js">
+	
+	$('div.checkbox-group.required :checkbox:checked').length > 0
+</script>
+
+
+
+
+
+
+
+
+
+<body>
+	
+	<div class="limiter">
+		<div class="container-login100">
+			<div class="wrap-login100 p-l-55 p-r-55 p-t-65 p-b-50">
+				<form class="login100-form validate-form" action="/addsubject" method="post" onSubmit = "return checkPassword(this)" enctype="multipart/form-data">
+					{% if error %}  
+        				<p><strong>Error</strong>: {{error}}</p>  
+   					{% endif %}
+					<span class="login100-form-title p-b-33">
+						Add new subject
+					</span>
+
+					
+					<div class="wrap-input100 validate-input">
+						<div class="input100">
+							<table class="center">
+							<tr>
+							<td>Select Branch</td>
+							<div class="checkbox-group required">
+							<td><input  name="sbranch" type="checkbox" value="CE">CE</td>
+							<td><input name="sbranch" type="checkbox" value="IT">IT</td>
+							<td><input name="sbranch" type="checkbox" value="EC">EC</td>
+							</div>
+							<span class="focus-input100-1"></span>
+							<span class="focus-input100-2"></span>
+							</table>
+						</div>
+					</div>
+					 <div class="wrap-input100 rs1 validate-input">
+						<div class="input100">
+							<select class="input100" name="ssemester" required> 
+        						<option value="">  Select Semester</option> 
+						        <option value="1">1</option> 
+						        <option value="2">2 </option> 
+						        <option value="3">3</option> 
+						        <option value="4">4</option>
+						        <option value="5">5</option>
+						        <option value="6">6</option>
+						        <option value="7">7</option>
+						        <option value="8">8</option> 
+						        <span class="focus-input100-1"></span>
+								<span class="focus-input100-2"></span>
+    						</select> 
+    					</div>
+    				</div>
+    				<div class="wrap-input100 validate-input" data-validate = "Valid uid is required: 00exaaa000">
+						<input class="input100" type="text" name="subcode" placeholder="Enter SubjectCode" required>
+						<span class="focus-input100-1"></span>
+						<span class="focus-input100-2"></span>
+					</div>
+
+					<div class="wrap-input100 rs1 validate-input">
+						<input class="input100" type="text" name="subjectname" placeholder="Enter Subject Name" required>
+						<span class="focus-input100-1"></span>
+						<span class="focus-input100-2"></span>
+					</div>
+
+
+
+
+										
+					 <!-- <div class="wrap-input100 rs1 validate-input">
+						<div class="input100">
+							<table class="center">
+							<tr>
+							<td>Select Subjects</td>
+							<div class="checkbox-group required">
+							<td><input  name="fsubject" type="checkbox" value="Python">Python</td>
+							<td><input name="fsubject" type="checkbox" value="Java">Java</td>
+							
+							<td><input name="fsubject" type="checkbox" value="Javascript">Javascript</td>
+							</div>
+							</tr>
+
+							<span class="focus-input100-1"></span>
+							<span class="focus-input100-2"></span>
+							</table>
+						</div>
+					</div> -->
+
+					<div class="container-login100-form-btn m-t-20">
+						<button class="login100-form-btn" type="submit">
+							SUBMIT & ADD ANOTHER SUBJECT
+						</button>
+					</div>
+
+					
+					
+			
+				</form>
+					<form class="login100-form validate-form" action="/admin">
+					
+					<div class="container-login100-form-btn m-t-20">
+						<button class="login100-form-btn" type="submit" >
+							Previous Page
+						</button>
+					</div>
+				</form>	
+				
+
+			</div>
+		</div>
+	</div>
+	
+
+	
+
+{% endblock %}

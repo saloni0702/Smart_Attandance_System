@@ -1,0 +1,41 @@
+{% extends "layout.html" %}
+{% block body %}
+<style type="text/css">
+	select {
+    border: none;
+    outline: none;
+    padding:25px;
+}
+
+table.center {
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+.files,td{
+
+	padding:25px;
+}
+</style>
+
+<body>
+
+			<img src="{{image}}"  width="400" height="400" alt="Picture of Theodore Roosevelt">
+	
+
+				<form class="login100-form validate-form" action="/nextattendance">	
+				<div class="container-login100-form-btn m-t-20">
+						<button class="login100-form-btn" type="submit">
+							Next Attendance
+						</button>
+					</div>
+
+				</form>
+			
+				
+		
+	
+
+	
+
+{% endblock %}
